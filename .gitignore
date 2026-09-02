@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+applied_or_seen_jobs.txt
+applied_or_seen_jobs.txt.tmp
+job_history.json
+job_history.json.tmp
+frontend/node_modules/
+frontend/dist/
