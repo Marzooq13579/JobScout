@@ -13,6 +13,20 @@ Configuration is separated by responsibility:
 The React dashboard shows newly fetched jobs separately from the persistent
 history stored in `job_history.json`.
 
+## UI demo
+
+### JobScout dashboard
+
+![JobScout dashboard with on-demand job fetching and retention summary](docs/images/jobscout_ui_1.png)
+
+### Configurable search filters
+
+![JobScout search settings for query, location, date, result limit, and role filters](docs/images/jobscout_ui_2.png)
+
+### Latest and previously fetched jobs
+
+![JobScout latest-check and previously-fetched job sections with JSON export](docs/images/jobscout_ui_3.png)
+
 Every retained job is timestamped. When the API starts, it runs one cleanup
 pass that removes entries fetched more than 30 days ago from both
 `applied_or_seen_jobs.txt` and `job_history.json`. The seen-jobs file is created
